@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #35496B;
+  height: 10vh;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.company-logo {
+  width: 5.8%;
+}
+
+.company-logo-primary{
+  font-size: 2rem;
+  color: #00AEEF;
+}
+
+.company-logo-secondary {
+  line-height: 0;
+  text-align: end;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+  margin: 40px auto;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 14px;
+}
+
+th {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.btn {
+  display: block;
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.btn.DELETE, .btn.Save.Data{
+  background-color: purple;
+  border: none;
+  color: white;
+}
+
+/* .btn.Save.Data {
+  background-color: purple;
+  border: none;
+  color: white;
+} */
+
+
+.prev-icon, .next-icon {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  display: inline-block;
+}
+
+.prev-icon > svg, .next-icon > svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  vertical-align: middle;
+}
+
+.page-number {
+  vertical-align: middle;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+
+.cards-section {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: #F5F5F5;
+  margin: 1rem;
+  width: 350px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.card-details {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.card-details > img {
+  width: 80px;
+  height: 80px;
+}
+
+.card-stock-price {
+  font-size: 2rem;
+  text-align: center;
+}
+
+
+
